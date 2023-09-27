@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://bmi.webservice.com/" xmlns:tns="http://bmi.webservice.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="calcBMI" type="tns:calcBMI"/>
+
+  <xs:element name="calcBMIResponse" type="tns:calcBMIResponse"/>
+
+  <xs:element name="listRanges" type="tns:listRanges"/>
+
+  <xs:element name="listRangesResponse" type="tns:listRangesResponse"/>
+
+  <xs:element name="listWeights" type="tns:listWeights"/>
+
+  <xs:element name="listWeightsResponse" type="tns:listWeightsResponse"/>
+
+  <xs:complexType name="listRanges">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="listRangesResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listWeights">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listWeightsResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="calcBMI">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+      <xs:element name="arg1" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="calcBMIResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
