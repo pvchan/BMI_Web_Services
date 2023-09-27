@@ -1,3 +1,15 @@
+# BMI Web Service and Client
+
+## Description
+
+This project consists of a web service (`MyBMIServer`) and a command-line client (`MyBMIClient`) that allow users to calculate the Body Mass Index (BMI) and determine the BMI classification. The web service provides three main functionalities:
+
+1. Calculate the BMI and its classification based on weight and height.
+2. List the known BMI ranges.
+3. Provide the ideal range of weights for a given height.
+
+The project is developed as a part of an assignment for SENG 4500 Networks and Distributed Computing at the University of Newcastle in 2022.
+
 To run the program:
 
 -Open a terminal in the directory: "/bmi-web-service/src"
