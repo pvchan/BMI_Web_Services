@@ -10,6 +10,8 @@ This project consists of a web service (`MyBMIServer`) and a command-line client
 
 The project is developed as a part of an assignment for SENG 4500 Networks and Distributed Computing at the University of Newcastle in 2022.
 
+==========================================================================
+
 To run the program:
 
 -Open a terminal in the directory: "/bmi-web-service/src"
